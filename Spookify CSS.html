@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&amp;family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>spookify | </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <p><strong>spook</strong>ify</p>
+            <ul>
+                <li>Stories</li>
+                <li>Authors</li>
+                <li>Contact</li>
+                <a href="#">Sign Up</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <figure>
+                    <img src="images/landing-image.png" alt="Pumpkin Image">
+                </figure>
+                <h1>Tales of the Undead</h1>
+                <h2>Scare yourself, scare your friends,</h2>
+                <h2 class="text">for all we care</h2>
+                <a class="button" href="#">Sign Up</a>
+            </div>
+        </section>
+        <section class="stories">
+            <div>
+                <div>
+                    <figure>
+                        <img src="images/paramdam.png" alt="Top Story - Paramdam">
+                    </figure>
+                    <h3 class="top">Top Stories</h3>
+                    <h3 class="paramdam">Paramdam</h3>
+                    <p class="txt">Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
+                        pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
+                        iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
+                        takot.</p>
+                    <p class="txt2">Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot.</p> 
+                    <p class="read">Read More...</p>
+                </div>
+                <div class="img2">
+                    <figure>
+                        <img src="images/senyales.png" alt="Top Story - Senyales" width="50" heigt="50">
+                    </figure>
+                    <h3 class="senyales">Senyales</h3>
+                    <p>Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
+                        tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
+                        namin.</p>
+                    <p class="txt3">Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
+                        nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
+                        pero hindi ko mahanap.</p>
+                    <p class="more">Read More...</p>
+                </div>
+            </div>
+        </section>
+        <section class="authors">
+            <div>
+                <div class="fig1">
+                    <img src="images/author-cris.png" alt="Top Author #1">
+                    <h3 class="authorstxt">Cris James</h3>
+                    <p class="Story">Story: Paramdam</p>
+                    <p class="Published">Published: 2022</p>
+                </div>
+                <div class="fig2">
+                    <img src="images/author-katie.png" alt="Top Author #2">
+                    <h3 class="authorstxt">Katie Kim</h3>
+                    <p class="Story">Story: Senyales</p>
+                    <p class="Published">Published: 2009</p>
+                </div>
+                <div class="fig3">
+                    <img src="images/author-scarlette.png" alt="Top Author #3">
+                    <h3 class="authorstxt2">Scarlette Dickinson</h3>
+                    <p class="Story">Story: Halik na itim</p>
+                    <p class="Published">Published: 2022</p>
+                </div>
+            </div>
+        </section>
+        <img class="vector" src="images/Vector1.png">
+        <footer>
+            <div>
+                <h1>Dare to Spookify</h1>
+                <div class="box">
+                <input class="text2" type="text" placeholder="">
+                <input class="text3" type="submit" value="Spook Us">
+                </div>
+                <p class="terms">©2022 Spookify 🎃, Inc. Terms &amp; Conditions, Privacy</p>
+            </div>
+            
+        </footer>
+    </main>
+
+
+
+
+<style>
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+    padding: 150px;
+    margin-top: -150px;
+    font-family: 'Poppins', sans-serif;
+    background-size: auto;
+}
+:root {
+  --spacer: 3rem;
+  --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+h1 {
+    font-size: 64px;
+    height: 6.4rem;
+    color: #F55D3A;
+    margin-top: -230px;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 32px;
+    padding: 3.2rem;
+    color: #050505; 
+    font-family: 'Lora', serif;
+    margin-left: 65px;
+    margin-top: -40px;
+}
+
+.hero .text{
+    margin-top: -100px;
+}
+h3 {
+    font-size: 28px;
+    height: 1.8rem;
+    padding: 1.8rem;
+    color: #24126A;
+}
+p strong {
+    color: #24126A;  
+}
+p {
+    font-size: 18px;
+    padding: 1.8rem;
+    color: #F55D3A;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin-left: 50px; 
+    display: inline;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #24126A;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #24126A;
+    margin-right: 250px;
+}
+
+.hero img {
+    margin-left: 800px;
+    width: 200px;
+    height: 200px;
+}
+
+.button {
+    background-color: #24126A;
+    background: #24126A;
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 12px 35px;
+    margin-left: 92px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.hero a {
+    color: #FFFAFB;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+}
+
+.stories img {
+    width: 250px;
+    height: 350px;
+    margin-top: 280px;
+    margin-left: 130px;
+}
+
+.box {
+    
+    color: #1AC3C3;
+}
+.top {
+    margin-left: 390px;
+    margin-top: -520px;
+}
+
+.paramdam {
+    margin-left: 410px;
+    margin-top: 100px;
+}
+
+.txt {
+    padding: 1.8rem;
+    font-size: 18px;
+    color:#24126A;
+    margin-left: 410px;
+}
+
+.txt2 {
+    margin-top: -20px;
+    padding: 1.8rem;
+    font-size: 18px;
+    margin-left: 410px;
+    color:#24126A;
+}
+
+.read {
+    margin-top: -20px;
+    padding: 1.8rem;
+    font-size: 18px;
+    margin-left: 410px;
+}
+
+.img2 {
+    width: 250px;
+    height: 350px;
+    margin-top: -220px;
+    margin-left: 630px;
+    padding: 80px;
+}
+
+.senyales {
+    margin-left: -600px;
+    margin-top: -380px;
+}
+
+.img2 p {
+    margin-top: -20px;
+    padding: 3rem;
+    font-size: 18px;
+    margin-left: -618px;
+    color:#24126A;
+}
+
+.txt3 {
+    margin-top: -90px;
+    padding: 105px;
+    font-size: 18px;
+    margin-left: -620px;
+    color:#24126A;
+}
+.stories .more {
+    margin-top: -100px;
+    padding: 105px;
+    font-size: 18px;
+    margin-left: -687px;
+    color: #F55D3A;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+.authors {
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+.authors img {
+    margin-top: 500px;
+    width: auto;
+    height: auto;
+}
+
+.authors p {
+    font-size: 18px;
+    padding: 1.8rem;
+}
+
+.authors h3 {
+    font-size: 28px;
+    padding: 2.8rem;
+}
+
+.authorstxt {
+    color: #F55D3A;
+}
+
+.authorstxt2 {
+    display: inline-block;
+    color: #F55D3A;
+    font-size: 18px;
+    padding: 1.8rem;
+    margin-top: 15px;
+}
+
+.Story {
+    color: #24126A;
+    font-size: 18px;
+    height: 1.8rem;
+    margin-left: 16px;
+}
+
+.Published {
+    color: #24126A;
+    font-size: 18px;
+    height: 1.8rem;
+    margin-left: 16px;
+}
+.fig1 {
+    float: left;
+    width: 26%;
+    
+}
+
+.fig2 {
+    margin: 0 auto;
+    width: 26%;
+    
+}
+
+.fig3 {
+    float: right;
+    width: 26%;
+    margin-top: -928px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: -480px;
+    
+}
+
+.text2 {
+    margin-top: -50px;
+    margin-left: 250px;
+    background-color: #FFFAFB;
+}
+
+.text3 {
+    background-color: #24126A;
+    color:#FFFAFB;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    margin-top: -60px;
+    margin-left: 900px;
+}
+footer h1 input {
+    margin-top: 200px;
+}
+
+.terms {
+    color: #FFFAFB;
+    margin-left: 700px;
+}
+
+footer h1 {
+    font-weight: 'Lora', serif;
+    text-transform:none;
+    margin-left: 150px;
+}
+.vector {
+    width: 1400px;
+    margin-left: -100px;
+    margin-top: 200px;
+}
+/* Utilities */
+ul[class],
+ol[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, var(--spacer));
+}
+/* Start Here */
+
+</style></body></html>
